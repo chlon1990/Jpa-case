@@ -1,0 +1,39 @@
+emp1 = {"_id":1,"name":"武大郎","sex":"male","age":18,"hire_date":"20170301","post":"烧饼检察官","salary":7300.33}
+
+emp2 = {"_id":2,"name":"武松","sex":"male","age":78,"hire_date":"20150302","post":"公务员","salary":71000000.31}
+
+emp3 = {"_id":3,"name":"宋江","sex":"male","age":81,"hire_date":"20130305","post":"公务员","salary":78300}
+
+emp4 = {"_id":4,"name":"林冲","sex":"male","age":73,"hire_date":"20140701","post":"公务员","salary":73500}
+
+emp5 = {"_id":5,"name":"林冲","sex":"male","age":73,"hire_date":"20140701","post":"公务员","salary":73500}
+
+emp6 = {"_id":6,"name":"柴进","sex":"male","age":28,"hire_date":"20121101","post":"公务员","salary":72100}
+
+emp7 = {"_id":7,"name":"卢俊义","sex":"female","age":18,"hire_date":"20110211","post":"公务员","salary":79000}
+
+emp8 = {"_id":8,"name":"高俅","sex":"male","age":18,"hire_date":"19000301","post":"公务员","salary":730000}
+
+emp9 = {"_id":9,"name":"鲁智深","sex":"male","age":48,"hire_date":"20101111","post":"公务员","salary":710000}
+
+emp10 = {"_id":10,"name":"史进","sex":"female","age":48,"hire_date":"20150311","post":"打手","salary":73000.13}
+
+emp11 = {"_id":11,"name":"李逵","sex":"female","age":38,"hire_date":"20101101","post":"打手","salary":72000.35}
+
+emp12 = {"_id":12,"name":"周通","sex":"female","age":18,"hire_date":"20110312","post":"打手","salary":71000.37}
+
+emp13 = {"_id":13,"name":"石秀","sex":"female","age":18,"hire_date":"20160513","post":"打手","salary":73000.29}
+
+emp14 = {"_id":14,"name":"李忠","sex":"female","age":28,"hire_date":"20170127","post":"打手","salary":74000.33}
+
+emp15 = {"_id":15,"name":"吴用","sex":"male","age":28,"hire_date":"20160311","post":"文人","salary":710000.13}
+
+emp16 = {"_id":16,"name":"萧让","sex":"male","age":18,"hire_date":"19970312","post":"文人","salary":720000}
+
+emp17 = {"_id":17,"name":"安道全","sex":"female","age":18,"hire_date":"20130311","post":"文人","salary":719000}
+
+emp18 = {"_id":18,"name":"公孙胜","sex":"male","age":18,"hire_date":"20150411","post":"文人","salary":718000}
+
+emp19 = {"_id":19,"name":"朱贵","sex":"female","age":18,"hire_date":"20140512","post":"文人","salary":717000}
+
+db.emp.insertMany([emp1, emp2, emp3, emp4, emp5, emp6, emp7, emp8, emp9, emp10, emp11, emp12, emp13, emp14, emp15, emp16, emp17, emp18, emp19])
